@@ -1,5 +1,7 @@
 from datetime import date
 import math
+from msilib.schema import Binary
+import re
 def BMI():
     w = int(input())
     h = float(input())
@@ -11,3 +13,4 @@ def GPA():
     score = float(input())
     num = int(input())
     print(score/num)
+
