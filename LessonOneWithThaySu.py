@@ -13,4 +13,7 @@ def GPA():
     score = float(input())
     num = int(input())
     print(score/num)
+s= "^[Bb]{1}\\d{2}[A-Za-z]{4}\\d{3}$"
+x = 'B20DCCN622'
+print(re.search(s,x))
 
