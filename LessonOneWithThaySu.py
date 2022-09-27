@@ -1,19 +1,21 @@
-from datetime import date
-import math
-from msilib.schema import Binary
-import re
-def BMI():
-    w = int(input())
-    h = float(input())
-    print(w/(h*h))
-def Age():
-    year = int(input())
-    print(date.today().year-year)
-def GPA():
-    score = float(input())
-    num = int(input())
-    print(score/num)
-s= "^[Bb]{1}\\d{2}[A-Za-z]{4}\\d{3}$"
-x = 'B20DCCN622'
-print(re.search(s,x))
+# % operator
+text = "%d little pigs come out, or I'll %s, and I'll %s, and I'll blow your %s down." % (3, 'huff', 'puff', 'house')
+print(text)
+# Add parentheses to make the long line work:
+text = (
+    "%d little pigs come out, or I'll %s, and I'll %s, and I'll blow your %s down."
+    % (3, 'huff', 'puff', 'house')
+)
+print(text)
+text = (
+    "%d little pigs come out, "
+    "or I'll %s, and I'll %s, "
+    "and I'll blow your %s down."
+    % (3, 'huff', 'puff', 'house')
+)
+print(text)
 
+"""
+output:
+3 little pigs come out, or I'll huff, and I'll puff, and I'll blow your house down.
+"""
