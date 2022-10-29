@@ -1,5 +1,8 @@
 n = int(input())
-a = [float(x) for x in input().split()]
+try:
+    a = [float(x) for x in input().split()]
+except:
+    print("abc")
 Max = max(a)
 Min = min(a)
 s = 0
