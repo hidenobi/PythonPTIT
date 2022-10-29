@@ -5,7 +5,7 @@ Mã nhóm: G01
 """
 
 from collections import Counter
-
+# do không máy em không rút gọn đường dẫn mà thêm phần phía trước nên em không thêm ./PYPROGF22G01B20DCCN622HW0102 được ạ
 with open('G18LogAllDownload202210142034ForProcess.txt', 'r') as rfile, open('result.txt', 'w', encoding='utf-8') as wfile:
     listSV = []
     listTerms = []
