@@ -19,6 +19,12 @@
 # output:
 # 3 little pigs come out, or I'll huff, and I'll puff, and I'll blow your house down.
 
-a = [1,2,3]
-b = list(map(lambda x:x+10,a))
-print(b)
+# a = [1,2,3]
+# b = list(map(lambda x:x+10,a))
+# print(b)
+from datetime import datetime
+date_format = "%d/%m/%Y"
+a = datetime.strptime('05/06/2010', date_format)
+b = datetime.strptime('05/06/2010', date_format)
+d = b - a
+print(d.days)
