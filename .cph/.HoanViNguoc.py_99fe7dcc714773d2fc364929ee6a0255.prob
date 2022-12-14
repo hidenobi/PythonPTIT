@@ -1,0 +1,1 @@
+{"name":"Local: HoanViNguoc","url":"d:\\PTIT\\Ky_5\\Python\\HoanViNguoc.py","tests":[{"id":1670862797843,"input":"2\n2\n3","output":"2\n21 12 \n6\n321 312 231 213 132 123"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\PTIT\\Ky_5\\Python\\HoanViNguoc.py","group":"local","local":true}

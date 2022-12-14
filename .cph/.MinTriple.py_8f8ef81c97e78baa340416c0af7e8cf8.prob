@@ -1,0 +1,1 @@
+{"name":"Local: MinTriple","url":"d:\\PTIT\\Ky_5\\Python\\MinTriple.py","tests":[{"id":1669555059534,"input":"2\n7\n1 2 3 0 -1 8 10\n7\n9 8 20 3 4 -1 0","output":""},{"id":1669561384045,"input":"1\n2\n3 1111111111","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\PTIT\\Ky_5\\Python\\MinTriple.py","group":"local","local":true}
