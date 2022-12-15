@@ -1,0 +1,1 @@
+{"name":"Local: LonNhatVaNhoNhat","url":"d:\\PTIT\\Ky_5\\Python\\LonNhatVaNhoNhat.py","tests":[{"id":1671032990385,"input":"5\n10\n2\n3\n4\n5\n3\n001\n22\n33333333333333333333333333333333333\n3\n1\n1\n1\n0","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\PTIT\\Ky_5\\Python\\LonNhatVaNhoNhat.py","group":"local","local":true}
